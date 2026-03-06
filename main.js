@@ -24,4 +24,4 @@ setInterval(() => {
     const first = headlines.shift(); //remove first item
     headlines.push(first);
     loadHeadlines();
-}, 30000);
+}, 10000);
